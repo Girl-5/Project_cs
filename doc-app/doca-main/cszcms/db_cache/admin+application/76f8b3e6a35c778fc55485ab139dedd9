@@ -1,0 +1,13 @@
+O:12:"CI_DB_result":8:{s:7:"conn_id";N;s:9:"result_id";N;s:12:"result_array";a:1:{i:0;a:14:{s:2:"id";s:2:"18";s:5:"title";s:16:"Production Grant";s:11:"eligibility";s:195:"i. A complete shooting schedule for at the end of the production workshop.
+ii. Production of feature length, series and short documentary films.
+iii. Completed workshop and grant feedback form.";s:11:"description";s:193:"Production grants support the actual shooting and recording of documentary film content which includes funding for.
+
+a. Production workshop attendance.
+b. Pre-production
+c. Production costs";s:10:"grant_type";s:1:"1";s:5:"image";s:25:"2021/1615224911_1-org.jpg";s:9:"startDate";s:10:"0000-00-00";s:7:"endDate";s:10:"2021-05-14";s:8:"contract";s:1:"2";s:16:"description_type";s:1:"1";s:5:"addon";s:19:"2021-08-25 11:07:59";s:6:"active";s:1:"1";s:23:"project_summary_form_id";N;s:27:"project_description_form_id";N;}}s:13:"result_object";a:1:{i:0;O:8:"stdClass":14:{s:2:"id";s:2:"18";s:5:"title";s:16:"Production Grant";s:11:"eligibility";s:195:"i. A complete shooting schedule for at the end of the production workshop.
+ii. Production of feature length, series and short documentary films.
+iii. Completed workshop and grant feedback form.";s:11:"description";s:193:"Production grants support the actual shooting and recording of documentary film content which includes funding for.
+
+a. Production workshop attendance.
+b. Pre-production
+c. Production costs";s:10:"grant_type";s:1:"1";s:5:"image";s:25:"2021/1615224911_1-org.jpg";s:9:"startDate";s:10:"0000-00-00";s:7:"endDate";s:10:"2021-05-14";s:8:"contract";s:1:"2";s:16:"description_type";s:1:"1";s:5:"addon";s:19:"2021-08-25 11:07:59";s:6:"active";s:1:"1";s:23:"project_summary_form_id";N;s:27:"project_description_form_id";N;}}s:20:"custom_result_object";a:0:{}s:11:"current_row";i:0;s:8:"num_rows";i:1;s:8:"row_data";N;}

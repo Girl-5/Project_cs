@@ -1,0 +1,167 @@
+html,body{margin:0px;padding:0px; font-size: 15px; font-family: 'Lato', sans-serif; font-weight: 700; color:#1f1f1f; width: 100%; height: 100%; background: #5e1145; overflow: auto;}
+img{max-width: 100%;}
+*{box-sizing: border-box;-moz-box-sizing:border-box;}
+a{color:#5e1145;text-decoration: none;}
+a:hover{text-decoration: underline;}
+.button{background: #5e1145;color: #fff; border-radius: 25px;padding: 5px 20px;text-transform: uppercase; font-size: 17px;display: inline-block;outline: 0px;border: 0px;cursor: pointer;}
+.button:hover{background: #913272;text-decoration: none;}
+.fullContainer{width: 100%;float: left;}
+.container{width: 100%; max-width: 1180px; margin: 0px auto;}
+.container .wrapper{width: 100%;float: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+
+/* center box section */
+.centerBox{
+    /*height:calc(100% - 80px); */
+}
+.centerBox .container{
+    height: 100%;
+    /*display: flex;*/
+    align-items: center;
+}
+.centerBox .wrapper{padding: 40px 0px;}
+
+/* form Box section */
+.formBox{width:100%;max-width:520px;margin: 0px auto;padding: 0px 10px;}
+.formWrapper{display: flex; flex-direction: column;background: #eaeaea;padding: 20px 15px;}
+.formRow{display: flex; flex-direction: column; margin: 0px 0px 15px 0px;}
+.footerRow{width: 100%;text-align: center;margin-top: 10px;position: relative;}
+.formWrapper h2{text-align: center;text-transform: uppercase;color: #5e1145; font-size: 26px;margin-top: 0px;}
+.formWrapper label{color: #5e1145;text-transform: uppercase;margin: 0px 0px 5px 0px;}
+.formWrapper select,
+.formWrapper textarea,
+.formWrapper input[type='text'],
+.formWrapper input[type='number'],
+.formWrapper input[type='email'],
+.formWrapper input[type='password'],
+.formWrapper input[type='file']{border: 1px solid #5e1145;outline: 0px;margin: 0px;padding: 5px 10px;font-size: 16px;font-family: 'Lato', sans-serif;border-radius: 8px;background: #fff;resize: none;}
+.formWrapper input[type='button'],
+.formWrapper button{border:0px;outline: 0px; font-size: 16px;font-family: 'Lato', sans-serif;cursor: pointer;text-transform: uppercase;}
+.formWrapper input:focus{box-shadow: 1px 3px 5px #a9a9a9;}
+.formWrapper .newFormSection{background: #fff;width: 100%;padding: 10px 15px 0px 15px;border-radius: 8px;margin: 0px 0px 15px 0px;box-shadow: 0px 1px 5px #a7a7a7;}
+.formWrapper .newFormSection input{background: #f1f1f1;}
+.footerRow .btnBack{position: absolute;left: 0px;}
+
+/* header section */
+.header {background: #fff;box-shadow: 0px 0px 15px #616161;}
+.header .wrapper{display: flex;padding: 5px 0px;}
+.header .logo{min-width: 150px;}
+.header .logo a{display: inline-block;}
+.header .logo img{max-height:70px;}
+
+.header .navbox{width: 100%;display: flex;align-items: center;justify-content: flex-end;}
+.header .navbox ul{margin:0px;padding: 0px; list-style-type: none;float: right;}
+.header .navbox ul li{display: inline-block;}
+.header .navbox ul li a{display: inline-block;padding:5px 11px;text-transform: uppercase;}
+.header .navbox ul li a:hover{ background: #e8e9ec;text-decoration: none;}
+.header .navbox ul li a.button{font-size: 17px;padding: 5px 25px;margin-left: 10px;}
+.header .navbox ul li a.button:hover{background: #913272;}
+.header .navbox .bar-icon{display: none;font-size: 20px;padding: 0px 12px;}
+
+/* welcome Screen */
+.welcomeScreen{min-height: 410px;background: #5e1145;background-size: cover;}
+.welcomeScreen p{color: #5e1145;margin: 0px;}
+
+/* sign In Box */
+.signInBox{min-height: 450px;background: #5e1145;background-size: cover;}
+
+/* contact Information */
+.contactInfo{min-height: 600px;background: #5e1145;background-size: cover;}
+
+/* profile Information */
+.profileInfo{min-height: 700px;background: #5e1145;background-size: cover;}
+
+/* complete Profile */
+.compProfile{height: auto;background: #5e1145;background-size: cover;}
+.compProfile p{color: #5e1145;margin: 0px 0px 15px 0px; font-size: 18px;}
+
+/* reset Password */
+.resetPass{min-height: 300px;background: #5e1145;background-size: cover;}
+
+/* budget Screen */
+.budgetScreen{height: auto;background: #5e1145;background-size: cover;}
+
+/* project Description */
+.projectDesc{height: auto;background: #5e1145;background-size: cover;}
+
+/* director Screen */
+.directorScreen{min-height: 400px;background: #5e1145;background-size: cover;}
+
+/* project Detail */
+.projectDetail{min-height: 515px;background: #5e1145;background-size: cover;}
+
+/* listing Screen */
+.listingScreen{width: 100%;}
+.listingScreen .wrapper{padding: 50px 0px 30px 0px;display: flex;flex-wrap: wrap;}
+.listingBox{}
+.listingBox .listingWrapper{padding: 0px;border-radius: 5px; text-align: left; }
+.listingBox .listingWrapper img{border-radius: 15px;width: 100%; max-height: 194px;}
+.listingBox .listingWrapper h3{font-size: 22px;margin: 10px 0px;}
+.listingBox .listingWrapper p{font-size: 18px;margin: 0px 0px 20px 0px;}
+.listingBox .listingWrapper .button{border-radius: 10px;}
+
+/* progress Bar Box */
+.progressBarBox{width: 100%;display: flex; flex-direction: column; background: #fff;border-radius: 8px;padding: 6px;margin: 0px 0px 10px 0px;box-shadow: 0px 0px 5px #686868;color:#5e1145; text-transform: uppercase;}
+.progressBarBox > span{font-size: 12px;display: block;margin: 0px 0px 2px 0px;}
+.progressBarBox > label{font-size: inherit;}
+.progressBarBox .progressBar{width: 100%;height: 8px;background: #a3a09d;border-radius: 8px;position: relative;}
+.progressBarBox .progressBar .selection{position: absolute;height: 100%;left:0px;background: #5e1145;border-radius: 8px;transition: width 2s;}
+.progressBarBox .progressBar .progress1{width: 10%;}
+.progressBarBox .progressBar .progress2{width: 20%;}
+.progressBarBox .progressBar .progress3{width: 30%;}
+.progressBarBox .progressBar .progress4{width: 40%;}
+.progressBarBox .progressBar .progress5{width: 50%;}
+.progressBarBox .progressBar .progress6{width: 60%;}
+.progressBarBox .progressBar .progress7{width: 70%;}
+.progressBarBox .progressBar .progress8{width: 80%;}
+.progressBarBox .progressBar .progress9{width: 90%;}
+.progressBarBox .progressBar .progress10{width: 100%;}
+
+/* white Wrapper */
+.whiteWrapper .wrapper{background: #fff;margin: 30px 0px;border-radius: 8px;padding: 15px;min-height: 400px;}
+.whiteWrapper .centerTitle{width: 100%;float: left;text-align: center;margin:0px 0px 15px 0px;}
+.whiteWrapper .centerTitle h2{margin:0px;font-size: 30px;}
+.whiteWrapper .contentArea{width: 100%;float: left;}
+
+table.grayTable{width: 100%;max-width: 800px;margin: 0px auto;border-collapse: collapse;}
+table tr th{font-size: 16px;}
+table tr th,
+table tr td{text-align: center; background: #f9f9f9;border:1px solid #dcdcdc;padding:8px 5px;}
+
+/* content Page */
+.contentPage .wrapper{padding: 0px;}
+.contentPage .darkArea{background: #fff;width: 100%;float: left;padding: 15px;border-radius: 0px;}
+.darkArea .col1{width: 45%;float: left;padding-right: 15px;}
+.darkArea .col1 .darkImg{width: 100%;float: left;background: #fff;padding: 10px;border-radius: 8px;}
+.darkArea .col1 .darkImg img{border-radius: 8px;box-shadow: -2px -1px 5px #cecece;}
+.darkArea .col2{width: 55%;float: left;padding-left:15px;color:#fff;}
+.darkArea .col2 h3{margin:0px 0px 10px 0px;font-size: 20px;margin-bottom: 10px;}
+.darkArea .col2 p{font-size: 16px;margin: 8px 0px;}
+.contentPage .contentArea{padding:20px;}
+.contentPage .contentArea h4{margin: 0px 0px 0px 0px;font-size: 22px;}
+.contentPage .contentArea p{margin: 15px 0px;}
+
+
+
+
+
+@media (max-width: 768px) {
+    /* header section */
+    .header .logo a{padding-left: 10px;}
+    .header .navbox .bar-icon{display: inline-block;}
+    .top-menu{display: none;}
+
+    .header .navbox ul{position: absolute;top: 73px;left: 0px;right: 0px;background: #5e1145;}
+    .header .navbox ul li{display: block;text-align: center;border-top: 1px solid #e8e9ec;}
+    .header .navbox ul li a{color: #fff;}
+
+
+    .listingBox{flex: 1 0 50%;}
+}
+
+@media (max-width: 580px) {
+    .listingBox{flex: 1 0 100%;}
+}
+
+section{ }
